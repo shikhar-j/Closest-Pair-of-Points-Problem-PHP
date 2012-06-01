@@ -143,40 +143,4 @@ function _closestPair(array $xP, array $yP) {
 	return array($closestD, $closestPair);
 }
 
-header('Content-type: text/plain');
-print_r (closestPair(array(
-	array(4,7),
-	array(1,2),
-	array(18,6),
-	array(9,11),
-	array(2,9),
-	array(5,10),
-	array(15,1),
-	array(11,18),
-)));
-print_r (closestPair(array(
-	array(5,9),
-	array(9,3),
-	array(2,0),
-	array(8,4),
-	array(7,4),
-	array(9,10),
-	array(1,9),
-	array(8,2),
-	array(0,10),
-	array(9,6)
-)));
-print_r (closestPair(array(
-	array(0.748501, 4.09624),
-	array(3.00302, 5.26164),
-	array(3.61878, 9.52232), 
-	array(7.46911, 4.71611),
-	array(5.7819, 2.69367),
-	array(2.34709, 8.74782),
-	array(2.87169, 5.97774),
-	array(6.33101, 0.463131),
-	array(7.46489, 4.6268),
-	array(1.45428, 0.087596)
-)));
-
 ?>

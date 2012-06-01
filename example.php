@@ -1,5 +1,5 @@
 <?php
-
+include("closest_pair.php");
 header('Content-type: text/plain');
 
 $array1 = array(array(4,7),
